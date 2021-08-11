@@ -1,2 +1,1 @@
-sudo apt update -y
-sudo apt install samtools -y
+samtools
