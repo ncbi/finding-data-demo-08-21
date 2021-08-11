@@ -8,9 +8,9 @@ chmod +x datasets
 cp datasets* /srv/conda/bin
 
 
-wget http://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/current/sratoolkit.2.11.0-ubuntu64.tar.gz
-tar -xvf sratoolkit.2.11.0-ubuntu64
-cp sratoolkit.current-ubuntu64/bin/* /srv/conda/bin
+wget https://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/2.11.0/sratoolkit.2.11.0-ubuntu64.tar.gz
+tar -xvf sratoolkit.2.11.0-ubuntu64.tar.gz
+cp sratoolkit.2.11.0-ubuntu64/bin/* /srv/conda/bin
 
 vdb-config --set LIBS/GUID=$(uuidgen) --report-cloud-identity yes
 vdb-config --set /repository/user/main/public/cache-disabled=true
