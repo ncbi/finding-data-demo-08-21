@@ -4,6 +4,6 @@ set -ex
 
 # Install datasets binary
 curl -o datasets 'https://ftp.ncbi.nlm.nih.gov/pub/datasets/command-line/LATEST/linux-amd64/datasets'
-sudo chmod +x datasets
-sudo cp -r ./datasets* /usr/local/bin
+chmod +x datasets
+cp datasets* /srv/conda/bin
 
