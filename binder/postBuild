@@ -5,7 +5,7 @@ set -ex
 # Install datasets binary
 curl -o datasets 'https://ftp.ncbi.nlm.nih.gov/pub/datasets/command-line/LATEST/linux-amd64/datasets'
 chmod +x datasets
-cp -r ./datasets* /usr/local/bin
+
 
 jupyter lab clean
 
