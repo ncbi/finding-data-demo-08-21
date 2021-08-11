@@ -7,7 +7,3 @@ curl -o datasets 'https://ftp.ncbi.nlm.nih.gov/pub/datasets/command-line/LATEST/
 chmod +x datasets
 
 
-jupyter lab clean
-
-# Setup a workspace
-jupyter lab workspaces import binder/workspace.json
