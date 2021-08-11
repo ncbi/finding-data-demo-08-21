@@ -2,8 +2,6 @@
 
 set -ex
 
-invoke build --env-name=root --no-kernel
-
 # Install datasets binary
 curl -o datasets 'https://ftp.ncbi.nlm.nih.gov/pub/datasets/command-line/LATEST/linux-amd64/datasets'
 chmod +x datasets
