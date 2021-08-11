@@ -7,3 +7,20 @@ curl -o datasets 'https://ftp.ncbi.nlm.nih.gov/pub/datasets/command-line/LATEST/
 chmod +x datasets
 cp datasets* /srv/conda/bin
 
+
+wget http://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/current/sratoolkit.current-ubuntu64.tar.gz
+tar -xvf sratoolkit.current-ubuntu64.tar.gz
+cp sratoolkit.current-ubuntu64/bin/* /srv/conda/bin
+
+vdb-config --set LIBS/GUID=$(uuidgen) --report-cloud-identity yes
+vdb-config --set /repository/user/main/public/cache-disabled=true
+
+wget https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/ncbi-blast-2.12.0+-x64-linux.tar.gz
+tar -xvf ncbi-blast-2.12.0+-x64-linux.tar.gz
+cp -r ncbi-blast-2.12.0+/bin/* /srv/conda/bin
+
+wget https://ftp.ncbi.nlm.nih.gov/blast/executables/magicblast/LATEST/ncbi-magicblast-1.6.0-x64-linux.tar.gz
+tar -xvf ncbi-magicblast-1.6.0-x64-linux.tar.gz
+cp -r ncbi-magicblast-1.6.0/bin/* /srv/conda/bin
+
+
