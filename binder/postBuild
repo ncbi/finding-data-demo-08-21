@@ -25,5 +25,5 @@ wget https://ftp.ncbi.nlm.nih.gov/blast/executables/magicblast/LATEST/ncbi-magic
 tar -xvf ncbi-magicblast-1.6.0-x64-linux.tar.gz && \
 cp -r ncbi-magicblast-1.6.0/bin/* /srv/conda/bin
 
-chmod +x srv/conda/bin/*
+
 
