@@ -12,11 +12,6 @@ wget https://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/2.11.0/sratoolkit.2.11.0-ubuntu6
 tar -xvf sratoolkit.2.11.0-ubuntu64.tar.gz && \
 cp -r sratoolkit.2.11.0-ubuntu64/bin/* /srv/conda/bin
 
-GUID=$(uuidgen)
-sratoolkit.2.11.0-ubuntu64/bin/vdb-config --set LIBS/GUID=$GUID
-sratoolkit.2.11.0-ubuntu64/bin/vdb-config --report-cloud-identity yes
-#sratoolkit.2.11.0-ubuntu64/bin/vdb-config --set /repository/user/main/public/cache-disabled=true
-
 wget https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/ncbi-blast-2.12.0+-x64-linux.tar.gz
 tar -xvf ncbi-blast-2.12.0+-x64-linux.tar.gz && \
 cp -r ncbi-blast-2.12.0+/bin/* /srv/conda/bin
