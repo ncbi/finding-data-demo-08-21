@@ -23,9 +23,9 @@ cp -r ncbi-magicblast-1.6.0/bin/* /srv/conda/bin
 
 #Tidy up the filespace by putting installs in a separate directory
 mkdir software_installs
-mv -r datasets* software_installs
-mv -r sratoolkit.2.11.0-ubuntu64* software_installs
-mv -r ncbi-blast-2.12 software_installs
-mv -r ncbi-magicblast-1.6.0-x64-linux software_installs
+mv datasets* software_installs
+mv sratoolkit* software_installs
+mv ncbi-blast-2.12* software_installs
+mv ncbi-magicblast-1.6.0* software_installs
 
 
