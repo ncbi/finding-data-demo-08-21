@@ -16,9 +16,7 @@ If you want to use this notebook on your own machine, be sure to install the req
 
 Access this Binder by clicking the blue badge above or at the following URL:
 
-
-
-
+https://mybinder.org/v2/gh/Arhodes-NCBI/conda/HEAD
 
 
 ## Notes
