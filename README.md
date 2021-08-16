@@ -11,7 +11,9 @@ A Binder-compatible repo to support the demo notebook for this webinar.
 If you want to use this notebook on your own machine, be sure to install the requirements found in the binder folder.
 
 `environment.yml` - conda installs for relevant python packages
+
 `apt.txt` - tools loaded using `apt` on an ubuntu server (e.g. for samtools, type `sudo apt install samtools -y`
+
 `postBuild` - postbuild installation script - these programs can be loaded on your notebook server by running this as a bash script
 
 Access this Binder by clicking the blue badge above or at the following URL:
