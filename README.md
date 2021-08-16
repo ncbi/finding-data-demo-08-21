@@ -1,15 +1,25 @@
-# Conda environment with environment.yml
+# Example Notebook: Finding data for your research organism: Plants and RNA-Seq
+# Delivered as a webinar for NCBI on August 18, 2021
+## Adelaide Rhodes, Ph.D,
 
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Arhodes-NCBI/conda/HEAD)
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Arhodes-NCBI/conda/tree/master/HEAD)
+### What is this?
 
+A Binder-compatible repo to support the demo notebook for this webinar. 
+If you want to use this notebook on your own machine, be sure to install the requirements found in the binder folder.
 
-A Binder-compatible repo with an `environment.yml` file.
+`environment.yml` - conda installs for relevant python packages
+`apt.txt` - tools loaded using `apt` on an ubuntu server (e.g. for samtools, type `sudo apt install samtools -y`
+`postBuild` - postbuild installation script - these programs can be loaded on your notebook server by running this as a bash script
 
 Access this Binder by clicking the blue badge above or at the following URL:
 
-http://mybinder.org/v2/gh/binder-examples/conda_environment/master?filepath=index.ipynb
+
+
+
+
 
 ## Notes
 The `environment.yml` file should list all Python libraries on which your notebooks
