@@ -14,7 +14,7 @@ If you want to use this notebook on your own machine, be sure to install the req
 
 `apt.txt` - tools loaded using `apt` on an ubuntu server (e.g. for samtools, type `sudo apt install samtools -y`
 
-`postBuild` - postbuild installation script - these programs can be loaded on your notebook server by running this as a bash script
+`postBuild` - postbuild installation script - these programs can be loaded on your notebook server by running this as a bash script. To load these programs on a local machine, just change the script to replace /srv/conda/bin to usr/local/bin to use the commands "as is".
 
 Access this Binder by clicking the blue badge above or at the following URL:
 
