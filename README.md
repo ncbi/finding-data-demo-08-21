@@ -3,7 +3,7 @@
 ## Adelaide Rhodes, Ph.D,
 
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Arhodes-NCBI/conda/HEAD)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ncbi/finding-data-demo-08-21/HEAD)
 
 ### What is this?
 
