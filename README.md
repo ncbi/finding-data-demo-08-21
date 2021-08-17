@@ -3,25 +3,36 @@
 ## Adelaide Rhodes, Ph.D,
 
 
+![Workflow Diagram](img/Workflow_demo_top.png)
+
+
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ncbi/finding-data-demo-08-21/HEAD)
 
-### What is this?
-
-A Binder-compatible repo to support the demo notebook for this webinar. 
-If you want to use this notebook on your own machine, be sure to install the requirements found in the binder folder.
-
-`environment.yml` - conda installs for relevant python packages
-
-`apt.txt` - tools loaded using `apt` on an ubuntu server (e.g. for samtools, type `sudo apt install samtools -y`
-
-`postBuild` - postbuild installation script - these programs can be loaded on your notebook server by running this as a bash script. To load these programs on a local machine, just change the script to replace /srv/conda/bin to usr/local/bin to use the commands "as is".
 
 Access this Binder by clicking the blue badge above or at the following URL:
 
 https://mybinder.org/v2/gh/Arhodes-NCBI/conda/HEAD
 
 
-## Notes
+### Interactive Notebook Environment
+
+This is a Binder-compatible repo to support the demo notebook for an NCBI Minute Webinar Delivered on August 18, 2021. The notebook will continue to work after the webinar.
+
+If you want to use this notebook on your own machine, be sure to install the requirements found in the binder folder.
+
+Here us an explanation of the files in the binder folder.
+
+* `environment.yml` - conda installs for relevant python packages
+
+* `apt.txt` - tools loaded using `apt` on an ubuntu server (e.g. for samtools, type `sudo apt install samtools -y`
+
+* `postBuild` - postbuild installation script - these programs can be loaded on your notebook server by running this as a bash script. To load these programs on a local machine, just change the script to replace /srv/conda/bin to usr/local/bin to use the commands as written in the notebook.
+
+
+
+
+## More Binder Notes
+
 The `environment.yml` file should list all Python libraries on which your notebooks
 depend, specified as though they were created using the following `conda` commands:
 
