@@ -11,7 +11,7 @@
 
 Access this Binder by clicking the blue badge above or at the following URL:
 
-https://mybinder.org/v2/gh/Arhodes-NCBI/conda/HEAD
+https://mybinder.org/v2/gh/ncbi/finding-data-demo-08-21/HEAD
 
 
 ### Interactive Notebook Environment
