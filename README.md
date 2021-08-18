@@ -3,7 +3,7 @@
 ## Adelaide Rhodes, Ph.D,
 
 
-![Workflow Diagram](img/Workflow_demo_top.png)
+![Workflow Diagram](img/Workflow_demo.png)
 
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ncbi/finding-data-demo-08-21/HEAD)
