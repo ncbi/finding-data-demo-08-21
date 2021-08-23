@@ -26,7 +26,7 @@ Here us an explanation of the files in the binder folder.
 
 * `apt.txt` - tools loaded using `apt` on an ubuntu server (e.g. for samtools, type `sudo apt install samtools -y`
 
-* `postBuild` - postbuild installation script - these programs can be loaded on your notebook server by running this as a bash script. To load these programs on a local machine, just change the script to replace /srv/conda/bin to usr/local/bin to use the commands as written in the notebook.
+* `postBuild` - postbuild installation script - these programs can be loaded on your notebook server by running this as a bash script. To load these programs on a local machine, just change the script to replace **/srv/conda/bin** to **usr/local/bin** or another location in $PATH to use the commands as written in the notebook.
 
 
 
